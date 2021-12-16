@@ -1,6 +1,6 @@
 {
   "name": "esbuild-dev-serve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use esbuild with a development server that provides statics and api proxy. This should be used for development only.",
   "main": "index.js",
   "repository": "https://github.com/zonebond/esbuild-dev-server",
