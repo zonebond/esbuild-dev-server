@@ -1,4 +1,4 @@
-# esbuild-html
+# esbuild-dev-serve
 [esbuild](https://esbuild.github.io/) plugin for development html.
 
 > Like webpack-dev-server. 
@@ -13,10 +13,10 @@
 
 ```bash
 # npm
-npm install esbuild-dev-server -D
+npm install esbuild-dev-serve -D
 
 # yarn
-yarn add esbuild-dev-server -D
+yarn add esbuild-dev-serve -D
 ```
 
 <br>
@@ -30,7 +30,7 @@ esbuild **dev.settings.js**
 
 ```javascript
 import esbuild from 'esbuild';
-import DevServer from 'esbuild-dev-server'
+import DevServe from 'esbuild-dev-serve'
 
 const esbuild_settings = {
   ... your basic esbuild settings ...
@@ -48,7 +48,7 @@ const serve = {
   }
 };
 
-DevServer(esbuild, serve, esbuild_settings);
+DevServe(esbuild, serve, esbuild_settings);
 
 ```
 
